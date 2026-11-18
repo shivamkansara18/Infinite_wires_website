@@ -1,0 +1,21 @@
+# Dependencies and Next.js output
+node_modules
+.next
+out
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Test output
+coverage
+playwright-report
+playwright/.cache
+test-results
+
+# Local environment files and secrets
+.env*
+!.env.example
+
+# Logs and macOS metadata
+*.log
+.DS_Store
